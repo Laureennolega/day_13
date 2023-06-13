@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+section{
+    padding: 20px 5%;
+}
+.roar{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+.photo{
+    position: relative;
+}
+
+.toast{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 42%;
+    height: 395px;
+    z-index: 1;
+    text-align: center;
+    padding: 80px;
+    font-weight: bold;
+    font-size: 26px;
+}
+.beach{
+    position: relative;
+}
+.world{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}

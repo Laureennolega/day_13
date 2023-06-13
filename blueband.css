@@ -52,9 +52,10 @@ nav ul li a{
     background-size: cover;
 }
 .row-2 h1{
-    font-size: 50px;
-    padding-top: 100px;
-    display: flex;
+    font-size: 80px;
+    padding-top: 200px;
+    color: navy;
+    text-align:right;
 }
 
 .row-2 button{
@@ -63,7 +64,9 @@ nav ul li a{
     background-color: yellow;
     color: blue;
     border-radius: 20px;
-    margin-left: 80%;
+    margin-top:5%;
+    left: 20%;
+    
 }
 .section2{
     text-align: center;
@@ -150,6 +153,10 @@ nav ul li a{
     font-size: 40px;
 
 }
+.left{
+    text-align: center;
+    font-size: 20px;
+}
 .level button{
     background-color: yellow;
     padding: 20px 40px;
@@ -161,23 +168,15 @@ nav ul li a{
     margin-top: 40px;
 }
 .learn{
-    width: 300px;
+    width: 20%;
     display: flex;
-    gap: 20px;
+    gap: 30px;
 }
-.learn .fox{
-    width: 300px;
-    height: 400px;
 
-} 
-img{
-   width: 100%;
-
-
-}
 .read h3{
     color: navy;
     text-align: center;
     padding: 20px 40px;
     font-size: 40px;
 }
+
